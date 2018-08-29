@@ -1,0 +1,68 @@
+# Site settings
+title: Café Musain
+description: "crypto, maths, physics, school"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://jingyingw.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+
+# User settings
+username: café   musain
+user_title: Jingying
+email: jingyingwjy@gmail.com
+twitter_username: loremipsum
+github_username:  jingyingw
+profile_picture: https://78.media.tumblr.com/avatar_43e00518007d_128.pnj
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  section_1:
+    - title: home
+      url: /
+      key_trigger: 1
+    - title: my posts
+      url: /posts
+      key_trigger: 2
+    - title: series
+      url: /series
+      key_trigger: 3
+    - title: tags
+      url: /tags
+      key_trigger: 4
+    - title: about me
+      url: /about
+      key_trigger: 5
+  section_2:
+    - title: github
+      url: "http://www.github.com/jingyingw"
+      new_tab: true
+      key_trigger: g
+    - title: vespertine
+      url: "https://vespertinelights.wordpress.com/"
+      key_trigger: v
+    - title: igcse revision
+      url: "https://igcserevisionwebsite.wordpress.com/"
+      key_trigger: i
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+
+# projects in header index
+projects:
+  - name: Classical Crypto
+    url: ccrypto
+
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
